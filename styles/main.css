@@ -96,7 +96,6 @@ a:hover {
 @media screen and (min-width: 900px) {
     .photo-card {
         display: flex;
-        flex-direction: row;
         text-align: left;
     }
 
@@ -104,8 +103,8 @@ a:hover {
 
     }
 
-    p {
-
+    .photo-card p {
+        order: 1;
     }
 }
 
