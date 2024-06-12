@@ -19,3 +19,14 @@ a.backButton {
 }
 
 /* Your code here */
+
+@media print {
+    img {
+        width: 100%;
+    }
+
+     h3 {
+        top: 10px;
+        text-align: center;
+    }
+}

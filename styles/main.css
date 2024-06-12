@@ -53,3 +53,70 @@ nav a.selected {
 }
 
 /* Your code here */
+
+@media print {
+    nav {
+        display: none;
+    }
+}
+
+@media screen and (max-height: 640px) {
+    .homepage {
+        height: 50vh
+    }
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+@media screen and (max-width: 800px) {
+    a {
+        text-decoration: underline;
+    }
+}
+
+/* Narrow layout */
+/* .photo-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.photo-card img {
+    width: 100%;
+} */
+
+/* Moderate layout */
+@media screen and (min-width: 900px) {
+    .photo-card {
+        flex-direction: row;
+        align-items: flex-start;
+        text-align: left;
+    }
+
+    h3 {
+        
+    }
+
+    p {
+        text-align: right;
+    }
+}
+
+
+/* Wider layout */
+@media screen and (min-width: 1200px) {
+
+}
+
+
+/* Widest layout */
+@media screen and (min-width: 1500px) {
+
+}
