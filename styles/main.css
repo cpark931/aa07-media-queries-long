@@ -95,17 +95,17 @@ a:hover {
 /* Moderate layout */
 @media screen and (min-width: 900px) {
     .photo-card {
+        display: flex;
         flex-direction: row;
-        align-items: flex-start;
         text-align: left;
     }
 
     h3 {
-        
+
     }
 
     p {
-        text-align: right;
+
     }
 }
 
